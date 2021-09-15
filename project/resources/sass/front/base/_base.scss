@@ -1,0 +1,175 @@
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+@font-face {
+	font-family: iranyekan-bold;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../../../assets/fonts/iranyekan/iranyekanwebbold\(fanum\).eot');
+	src: url('../../../assets/fonts/iranyekan/iranyekanwebbold\(fanum\).svg');
+	src: url('../../../assets/fonts/iranyekan/iranyekanwebbold\(fanum\).ttf');
+	src: url('../../../assets/fonts/iranyekan/iranyekanwebbold\(fanum\).woff');
+	src: url('../../../assets/fonts/iranyekan/iranyekanwebbold\(fanum\).woff2');
+}
+
+@font-face {
+	font-family: iranyekan-light;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../../../assets/fonts/iranyekan/iranyekanweblight\(fanum\).eot');
+		src: url('../../../assets/fonts/iranyekan/iranyekanweblight\(fanum\).svg');
+		src: url('../../../assets/fonts/iranyekan/iranyekanweblight\(fanum\).ttf');
+		src: url('../../../assets/fonts/iranyekan/iranyekanweblight\(fanum\).woff');
+		src: url('../../../assets/fonts/iranyekan/iranyekanweblight\(fanum\).woff2');
+
+}
+
+@font-face {
+	font-family: iranyekan-regular;
+	font-style: normal;
+	font-weight: normal;  
+	src: url('../../../assets/fonts/iranyekan/iranyekanwebregular\(fanum\).eot');
+		src: url('../../../assets/fonts/iranyekan/iranyekanwebregular\(fanum\).svg');
+		src: url('../../../assets/fonts/iranyekan/iranyekanwebregular\(fanum\).ttf');
+		src: url('../../../assets/fonts/iranyekan/iranyekanwebregular\(fanum\).woff');
+		src: url('../../../assets/fonts/iranyekan/iranyekanwebregular\(fanum\).woff2');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: normal;  
+	src: url('../../../assets/fonts/iranyekan/iranyekanwebregular\(fanum\).eot');
+		src: url('../../../assets/fonts/iranyekan/iranyekanwebregular\(fanum\).svg');
+		src: url('../../../assets/fonts/iranyekan/iranyekanwebregular\(fanum\).ttf');
+		src: url('../../../assets/fonts/iranyekan/iranyekanwebregular\(fanum\).woff');
+		src: url('../../../assets/fonts/iranyekan/iranyekanwebregular\(fanum\).woff2');
+}
+
+@font-face {
+	font-family: iranyekan-regular-ennum;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../../assets/fonts/iranyekan/iranyekanregular\(ennum\).ttf');
+}
+@font-face {
+	font-family: iranyekan-bold-ennum;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../../../assets/fonts/iranyekan/iranyekanbold\(ennum\).ttf');
+}
+
+@font-face {
+	font-family: mark-pro-bold;	 
+	src: url('../../../assets/fonts/Mark/FontFont_FF.Mark.Pro.Bold_0.otf');
+}
+
+@font-face {
+	font-family: mark-pro-book;	
+	font-style: normal; 
+	src: url('../../../assets/fonts/Mark/FontFont_FF.Mark.Pro.Book_0.otf');
+}
+
+html{
+    // This defines what 1rem is
+    font-size: 10px;
+	// font-size: calc(1em + 1vw)
+}
+body{
+	// font-size: 1rem; 
+	// font-size: calc(10px + (26 - 14) * ((100vw - 320px) / (1600 - 320)));; 
+    box-sizing: border-box;
+    font-family: iranyekan;
+    direction: rtl;
+	text-align: right;
+	margin-top: 4rem;
+	margin-right: 8rem;
+	margin-left: 8rem;
+	overflow-x: hidden !important;
+
+	@media (max-width:1199px){
+		margin-right: 7rem;
+		margin-left: 7rem;
+	}
+	@media (max-width:991px){
+		margin-right: 6rem;
+		margin-left: 6rem;
+	}
+	@media (max-width:767px){
+		margin-right: 5rem;
+		margin-left: 5rem;
+	}
+	@media (max-width:575px){
+		margin-right: 4rem;
+		margin-left: 4rem;
+	}
+	@media (max-width:424px) {
+		margin-right: 3rem;
+		margin-left: 3rem;
+	}
+	@media (max-width:375px) {
+		margin-right: 2rem;
+		margin-left: 2rem;
+	}
+}
+
+.text-font{
+	font-family: iranyekan-bold !important;
+}
+
+// .text-number-mark{
+// 	font-family: mark-pro-book;
+// }
+// .text__number{
+// 	font-family: sans-serif;
+// 	// font-family: Intro Regular-Caps;
+// }
+a , button{
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+a:hover{
+	color: inherit;
+}
+
+p{
+	margin-bottom: 0 !important;
+}
+
+h1{
+	font-size: 4rem;
+}
+h2{
+	font-size: 3.5rem;
+}
+h3{
+	font-size: 3rem;
+}
+h4{
+	font-size: 2.5rem;
+}
+h5{
+	font-size: 2rem;
+}
+h6{
+	font-size: 1.5rem;
+}
+
+.form-control:focus , .btn{
+	box-shadow:none !important;
+}
+
+.form-control:disabled{
+	background-color: white;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}

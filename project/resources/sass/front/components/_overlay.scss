@@ -1,0 +1,150 @@
+.image__original{
+    transition: all .5s ease-in;
+
+    &:hover{
+        z-index: 1000;
+        border-radius: $border-radius-card;
+        -ms-transform: scale(1.2);
+	    -webkit-transform: scale(1.2);
+	    transform: scale(1.2);
+         
+    }
+}
+
+
+.image__overlay{
+	right: 0; 
+    opacity: 0;
+        &--gray{
+            background-color: rgba($color-gray, 1);
+            mix-blend-mode: multiply;
+            position: absolute;
+            top: 0;
+			// right: 10.75%;
+            width: 20rem;
+            height: 20rem;
+            border-radius: $border-radius-card;
+        }
+
+        &--information{ 
+            //background-color: rgba(#08F0AB, 1);
+            //mix-blend-mode: multiply;
+            position: absolute;
+            top: 0;
+            // right: 10.75%;
+            border-radius: $border-radius-card;
+        }
+    
+
+        &--body{
+            position: absolute;
+            bottom: 8%;
+            // right: 8%;
+            // left: 8%;
+            transform: translateX(-10%);
+            width: 61%;
+        }
+        &--price{
+            background-color: $color-white;
+            color: $color-black;
+            border-radius: $border-radius-box-medium;
+        }
+
+        & span{
+            text-transform: uppercase;
+        }
+}
+
+.image__original:hover .image__overlay,.image__original:hover img{
+    opacity: 1;
+    left: 0;
+}
+
+.image__original:hover .image__overlay .image__overlay--body{
+    mix-blend-mode:normal;
+}
+
+
+
+
+// home page for new__pruduction calss
+.index__original {
+    z-index: 100;
+    transition: all 0.55s;
+}
+.index__overlay--information{
+    transition: background-color 500ms linear;
+
+}
+
+.index__original:hover{
+    @media (min-width:768px) {
+        transform: scale(1.15);
+        z-index: 1000;
+    }
+}
+
+.index__original:hover img{
+    border-radius: $border-radius-card;
+}
+
+.index__original:hover #index-img-overlay{
+    display: none;
+}
+
+.index__original:hover .index__overlay{
+    opacity: 1;
+}
+
+// .index__original:hover .index__overlay--information{
+//     // background-color: rgba($color-green, .3);
+//     filter: saturate(5);
+// }
+
+// .interest__img{
+//     fill: orange;
+//     stroke: #05956a;
+// }
+
+.index__original:hover .index__overlay{
+    border-radius: $border-radius-card;
+}
+
+.index__overlay{
+    right: 0;
+    opacity: 0;
+        &--gray{
+            background-color: rgba($color-gray, 1);
+            mix-blend-mode: multiply;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            // z-index: 1;
+            border-radius: $border-radius-card;
+        }
+        &--information{
+            // width: 100%;
+            // height: auto;
+            //background-color: rgba(#08F0AB, 1);
+            //mix-blend-mode: multiply;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            // z-index: 2;
+            border-radius: $border-radius-card;
+        }
+
+        &--body{
+            position: absolute;
+            bottom: 10%;
+            left: 0;
+            text-align: left;
+        }
+
+        &--price{
+            background-color: $color-white;
+            color: $color-black;
+            border-radius: $border-radius-box-medium;
+        }
+}

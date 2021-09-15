@@ -1,0 +1,30 @@
+.owl-nav{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.owl-prev{
+    float: right;
+}
+.owl-next{
+    float: left;
+   
+}
+
+.owl-prev > span, .owl-next > span{
+    color: $color-green;
+    font-size: 5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    z-index: 1000;   
+}
+
+.discount__card .owl-prev > span, .discount__card .owl-next > span{
+    top: 30%;
+}
+
+.products__card .owl-prev > span, .products__card .owl-next > span{
+    top: 30%;
+}

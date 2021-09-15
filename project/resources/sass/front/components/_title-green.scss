@@ -1,0 +1,19 @@
+.title{
+    // margin-top: 3rem;
+    margin-bottom: 3rem;
+    &__green{
+        background-color: #08f0ab;
+        border-radius: 1rem;
+    }
+	&__black{
+        background-color: black;
+		border-radius: 1rem;
+    }
+
+	&__empty{
+		@media (max-width:350px) {
+			display: none;
+		}
+	}
+}
+

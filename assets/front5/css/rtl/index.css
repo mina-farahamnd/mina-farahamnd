@@ -1,0 +1,1440 @@
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../../fonts/eot/iranyekanwebbold\(fanum\).eot');
+	src: url('../../fonts/eot/iranyekanwebbold(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../fonts/woff2/iranyekanwebbold(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../fonts/woff/iranyekanwebbold(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../../fonts/ttf/iranyekanwebbold(fanum).ttf') format('truetype');
+}
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../../fonts/eot/iranyekanweblight(fanum).eot');
+	src: url('../../fonts/eot/iranyekanweblight(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../fonts/woff2/iranyekanweblight(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../fonts/woff/iranyekanweblight(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../../fonts/ttf/iranyekanweblight(fanum).ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../fonts/eot/iranyekanwebregular(fanum).eot');
+	src: url('../../fonts/eot/iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../fonts/woff2/iranyekanwebregular(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../fonts/woff/iranyekanwebregular(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../../fonts/ttf/iranyekanwebregular(fanum).ttf') format('truetype');
+}
+
+html{
+	font-size: 10px;
+	/* color: white; */
+}
+body{
+	font-family: iranyekan;
+}
+.footer , .header{
+	direction: ltr !important;
+}
+/* ---------------------------------*********main*******- start------------------------- */
+/* <!-- -----------------------------------------header-p1-***for desktop and laptop***- start----------------------------------------- --> */
+/* .hahoot-online-store-dl-start */
+.hahoot-online-store-dl span{
+	color: #c8c8c8;
+}
+.hahoot-online-store-dl-open{
+	width: 3rem;
+	height: 4.5rem;
+}
+.hahoot-online-store-dl-logo{
+	width: 12rem;
+	height: 12rem;
+	margin-top: -3rem;
+}
+.hahoot-online-store-dl-social-networks{
+	margin-top: -1.75rem;
+}
+
+.hahoot-online-store-dl-social-networks img{
+	width: 2rem;
+	height: 2rem;
+	border: 0.1rem solid #c8c8c8;
+}
+.hahoot-online-store-dl-social-networks span{
+	border: 0.1rem solid #c8c8c8;
+	font-size: 0.75rem;
+	padding: 0.35rem;
+}
+/* .hahoot-online-store-dl-end */
+
+/* <!-- welcom-to-hahoot-dl-start --> */
+.welcom-to-hahoot-dl{
+	direction: rtl;
+}
+.welcom-to-hahoot-dl-store span{
+	font-size: 0.76rem;
+}
+.welcom-to-hahoot-dl-vl{
+    border-right: 0.15rem solid #c8c8c8;
+    height: 2rem;
+}
+.welcom-to-hahoot-dl-account span{
+	color: #c8c8c8;
+}
+.welcom-to-hahoot-dl-heart img{
+	width: 1.3rem;
+	height: 1.3rem;
+}
+.welcom-to-hahoot-dl-heart a{
+	color: #c8c8c8;
+	text-decoration: none;
+}
+/* <!-- welcom-to-hahoot-dl-end --> */
+
+/* <!-- welcom-to-hahoot-dl-cart-person-start --> */
+.welcom-to-hahoot-dl-cart, .welcom-to-hahoot-dl-person{
+	width: 3.25rem;
+	height: 3.8rem;
+	border-right: 0.15rem solid #c8c8c8;
+}
+.welcom-to-hahoot-dl-counter{
+	width: 1.5rem;
+	height: 1.5rem;
+	right: 0.8rem;
+	background-color:#ff00ff;
+	z-index: 999;
+}
+/* <!-- welcom-to-hahoot-dl-cart-person-end --> */
+.hovering-all{
+	direction: rtl;
+	text-align: right;
+}
+.hovering img{
+	width: 5rem;
+	height: 5rem;
+}
+.hovering-price{
+	background-color: #eeeeee;
+}
+
+.hovering-see-cart{
+	background-color: #0052ff;
+}
+.hovering-checkout{
+	background-color:#ff00ff ;
+}
+.hovering-see-cart img, .hovering-checkout img{
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.hovering-price span, .hovering-see-cart, .hovering-checkout{
+	font-size: 0.8rem;
+}
+#my-cart-hahoot{
+	z-index: 999;
+	width: 50rem !important;
+	background-color:#ffffff;
+	display: none;
+}
+.h-m-p{
+	display: none;
+}
+.welcom-to-hahoot-dl-cart:hover + .h-m-p{
+	display: block!important;
+}
+/* <!-- welcom-to-hahoot-dl-search-start  --> */
+.welcom-to-hahoot-dl-search{
+	direction: ltr;
+	height: 3rem;
+}
+.welcom-to-hahoot-dl-btn-search{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+.welcom-to-hahoot-dl-input-search:focus{
+    color: white;
+	text-align: right;
+	font-size: 1.25rem;
+	background-color: #0052ff;
+}
+
+.welcom-to-hahoot-dl-input-search::placeholder{
+    /* font-size: 1rem; */
+    text-align: right;
+    color: white;
+    direction: right;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+	-webkit-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease; 
+	opacity: 0;
+}
+  
+[placeholder]:focus::-moz-placeholder {
+	transition: opacity 0.5s ease; 
+	opacity: 0;
+}
+  
+[placeholder]:focus:-ms-input-placeholder {
+	transition: opacity 0.5s ease; 
+	opacity: 0;
+}
+  
+[placeholder]:focus::placeholder {
+	-webkit-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease; 
+	opacity: 0;
+}
+
+.header-vl{
+	border-left: 0.13rem solid;
+  	height: 2rem;
+}
+/*جدید و پرفروش */
+.welcom-to-hahoot-dl-new-best-seller span{
+	font-size: 1.2rem;
+}
+/* <!-- welcom-to-hahoot-dl-search-end  --> */
+
+
+
+/* nav -start */
+.nav-dl{
+	direction: rtl;
+}
+.menu{
+	font-size: 1rem;
+	color: black;
+}
+.submenu{
+	font-size: 0.76rem;
+	color: black;
+}
+#submenu1-dl{
+	background-color: black;
+}
+
+.flash-down-dl{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.nav-item{
+	line-height: 2rem;
+}
+.sub-submenu h5{
+	font-size: 1rem;
+}
+.sub-submenu a{
+	font-size: 0.9rem;
+	/* color:  #c8c8c8; */
+}
+.nav-dl-vl{
+	border-left: 0.13rem solid  #c8c8c8;;
+  	height: 21.5rem;
+}
+/* nav - end  */
+
+/* تغییرات از 1024 پیکسل تا 1440 پیکسل******* */
+@media (min-width: 64rem) and (max-width: 90rem){
+/* .hahoot-online-store-dl-start */
+	.hahoot-online-store-dl{
+		font-size: 1.25rem;
+	}
+	.hahoot-online-store-dl-open{
+		width: 4rem;
+		height: 4rem;
+	}
+	.hahoot-online-store-dl-logo{
+		width: 15rem;
+		height: 17rem;
+		margin-top: -5.5rem;
+	}
+		
+	.hahoot-online-store-dl-social-networks{
+		margin-top: -5rem;
+	}
+		
+	.hahoot-online-store-dl-social-networks img{
+		width: 3rem;
+		height: 3rem;
+	}
+	.hahoot-online-store-dl-social-networks span{
+		font-size: 1rem;
+		padding: 0.55rem;
+	}
+/* <!-- welcom-to-hahoot-dl-start --> */
+	.welcom-to-hahoot-dl-store span{
+		font-size: 1rem;
+	}
+	.welcom-to-hahoot-dl-heart img{
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+/* <!-- welcom-to-hahoot-dl-end --> */
+	
+/* <!-- welcom-to-hahoot-dl-cart-person-start --> */
+	.welcom-to-hahoot-dl-cart, .welcom-to-hahoot-dl-person{
+		width: 4rem;
+		height:4rem;
+	}
+	.welcom-to-hahoot-dl-counter{
+		width: 1.5rem;
+		height: 1.5rem;
+		right: 0.8rem;
+		background-color:#ff00ff;
+		z-index: 999;
+	}
+/* nav -start */
+	.menu{
+		font-size: 1.15rem;
+	}
+	.submenu{
+		font-size: 1rem;
+	}
+	.sub-submenu h5{
+		font-size: 1.25rem;
+	}
+	.sub-submenu a{
+		font-size: 1.15rem;
+	}
+/* nav - end  */
+	#my-cart-hahoot, #my-cart-hahoot a, #my-cart-hahoot span{
+		font-size: 1.25rem;
+	}	
+
+}
+
+/* تغییرات از 1440 پیکسل به بعد******* */
+@media (min-width: 90rem){
+/* .hahoot-online-store-dl-start */
+.hahoot-online-store-dl{
+	font-size: 1.5rem;
+}
+.hahoot-online-store-dl-open{
+	width: 6rem;
+	height: 6rem;
+}
+.hahoot-online-store-dl-logo{
+	width: 23rem;
+	height: 18rem;
+	margin-top: -5.75rem;
+}
+	
+.hahoot-online-store-dl-social-networks{
+	margin-top: -5rem;
+}
+	
+.hahoot-online-store-dl-social-networks img{
+	width: 4rem;
+	height: 3rem;
+}
+.hahoot-online-store-dl-social-networks span{
+	font-size: 1.05rem;
+	padding: 0.55rem;
+}
+/* <!-- welcom-to-hahoot-dl-start --> */
+.welcom-to-hahoot-dl-store span{
+	font-size: 1.5rem;
+}
+.welcom-to-hahoot-dl-heart img{
+	width: 2rem;
+	height: 2rem;
+}
+/* <!-- welcom-to-hahoot-dl-end --> */
+
+/* <!-- welcom-to-hahoot-dl-cart-person-start --> */
+.welcom-to-hahoot-dl-cart, .welcom-to-hahoot-dl-person{
+	width: 4.25rem;
+	height:4.25rem;
+}
+.welcom-to-hahoot-dl-counter{
+	width: 1.5rem;
+	height: 1.5rem;
+	right: 0.8rem;
+	background-color:#ff00ff;
+	z-index: 999;
+}
+/* nav -start */
+.menu{
+	font-size: 1.5rem;
+}
+.submenu{
+	font-size: 1.25rem;
+}
+.sub-submenu h5{
+	font-size: 1.25rem;
+}
+.sub-submenu a{
+	font-size: 1.25rem;
+}
+.flash-down-dl{
+	width: 3rem;
+	height: 3rem;
+}
+/* nav - end  */
+#my-cart-hahoot, #my-cart-hahoot a, #my-cart-hahoot span{
+	font-size: 1.25rem;
+}
+}
+/* <!-- -----------------------------------------header-p1-***for desktop and laptop***- end----------------------------------------- --> */
+
+
+/* <!-- -----------------------------------------header-p1-***for mobile***- start----------------------------------------- --> */
+/* ---------------------------------header line one: logo-menu - start------------------------- */
+.hahoot-online-store img{
+	width: 13rem;
+	height: 7rem;
+}
+.hahoot-online-store span{
+	color: #c8c8c8;
+}
+.cart-m{ 
+	position: relative;
+}
+
+.welcom-to-hahoot-dl-counter-m{
+	width: 1rem;
+	height: 1rem;
+	right: 3rem;
+	top: 3.05rem;
+	background-color:#ff00ff;
+	z-index: 999;
+}
+
+/* .counter{
+	width: 1rem;
+	height: 1rem;
+	
+	z-index: 1;
+	margin-left: 2rem;
+} */
+
+.cart-m ,.person-m{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.nav-m{
+	direction: rtl;
+}
+.submenu-mobile{
+	background: #000;
+}
+.submenu-sub-A-mobile{
+	background-color: #3d3d3d;
+}
+.submenu-sub-B-mobile{
+	background-color: #c8c8c8;
+}
+#navigation-m{
+	border: 0.1rem solid #c8c8c8;
+}
+.line-horizontal-menu{
+	background-color:  #c8c8c8;
+}
+/* .nav-m a, .nav-m span{
+	color:  #c8c8c8;
+	color: black;
+	cursor: pointer;
+} */
+
+/* #navigation-m .flash-down{
+	transform: rotate(-180deg);
+} */
+
+/* #navigation-m .collapsed .flash-down{
+	transform: rotate(0deg);
+} */
+
+.flash-down{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+#open, #close{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+/* ---------------------------------header line one: logo-menu - end------------------------- */
+/* ---------------------------------header line two: search brand- start------------------------- */
+.header-m-btn-search{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+.header-m-input-search:focus{
+    color: white;
+	text-align: right;
+	font-size: 1.25rem;
+	background-color: #0052ff;
+}
+
+.header-m-input-search::placeholder{
+    font-size: 0.7rem;
+    text-align: right;
+    color: white;
+    direction: right;
+}
+.header-vl{
+	border-left: 0.13rem solid;
+  	height: 2rem;
+}
+/*جدید و پرفروش */
+.best-seller, .new{
+	font-size: 1rem;
+}
+.footer-m-email, .header-m-input-search, .welcom-to-hahoot-dl-input-search, .welcom-to-hahoot-dl-search, .price-option-hahoot, .top-products{
+	background-color: #0052ff;
+}
+/* ----------------------------------header line two: search brand- end------------------------- */
+/* <!-- -----------------------------------------header-p1-***for mobile***- end----------------------------------------- --> */
+/* ----------------------------------********body********------------------------- */
+/* //////////////////////**************banner start****************/
+.main-banner{
+/* for mobile  */
+	background-color: black;
+	background-image: url("../../images/hahoot/highlight.svg");
+	height: 10rem;
+	background-repeat: no-repeat;
+  	background-size: cover;
+	position: relative;
+	background-position-y: -3rem;
+}
+
+.main-banner-gift-img{
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.main-banner-join{
+	cursor: pointer;
+	font-size: 1.2rem;
+	color: #0052ff;
+}
+
+.main-banner-discount div{
+	text-align: right;
+}
+.main-banner-gift-discount{
+	font-size: 1.1rem;
+}
+.main-banner-discount-first-purchase{
+	font-size: 1.35rem;
+	color: rgb(200, 2, 190);
+}
+
+.main-banner-discount-link{
+	font-size: 1.1rem;
+}
+
+.main-banner-email-input::placeholder{
+	text-align: right;
+	font-size: 0.75rem;
+	color: black;
+}
+.main-banner-email-input:focus{
+	text-align: right;
+	font-size: 1rem;
+	color: black;
+}
+/* for the desktop and laptap ****************************/
+/* .main-banner{
+	margin-top: 18rem;
+} */
+
+.main-banner-dl-email-input:focus{
+	text-align: right;
+	color: black;
+	font-size: 1rem;
+}
+
+/* .main-dl-banner-brand-search{
+	font-size: 1.5rem;
+} */
+
+/* .main-dl-banner-enter-email{
+	font-size: 1.5rem;
+} */
+/* ////////////////////**********************************/
+.main-banner-email{
+	width: auto;
+	height: 2.64rem;
+}
+
+.main-banner-email-confirmation-vl{
+	border-left: 0.1rem solid ;
+  	height: 500px;
+}
+
+.main-banner-email-btn{
+	color: black;
+}
+
+/* تغییرات از 768 پیکسل تا 1024 پیکسل **********/
+@media (min-width: 48rem) and (max-width: 64rem){
+	/* سایز بنر */
+	.main-banner{
+		height: 10rem;
+		background-position-y: -9rem;
+	}
+	/* عکس گیفت */
+	.main-banner-gift img{
+		width: 6rem;
+		height: 6rem;
+	}
+	/* join us!  */
+	.main-banner-gift a{
+		font-size: 1.35rem;
+	}
+	/* کد تخفیف */
+	.main-banner-gift span{
+		font-size: 1.25rem;
+	}
+	/* لذت تجربه اولین خرید */
+	.main-banner-discount-first-purchase{
+		font-size: 1.5rem;
+	}
+	/* کد تخفیف 35 هزار تومانی */
+	.main-banner-discount-link{
+		font-size: 1.22rem;
+	}
+	/* تغییرات سایز اینپوت ایمیل */
+	.main-banner-dl-email-input{
+		width: 15rem;
+	}
+	/* در هاهوت محصول یا برند خود را جستجو کنید */
+	.main-dl-banner-brand-search{
+		font-size: 0.85rem;
+	}
+	/* ایمیل خود را وارد کنید */
+	.main-dl-banner-enter-email{
+		font-size: 0.9rem;
+	}
+}
+
+ /* تغییرات از 1024 پیکسل تا 1440 پیکسل******* */
+@media (min-width: 64rem) and (max-width: 90rem){
+	/* سایز بنر */
+	.main-banner{
+		height: 15rem;
+		background-position-y: -11.5rem;
+	}
+	/* عکس گیفت */
+	.main-banner-gift img{
+		width: 10rem;
+		height: 10rem;
+	}
+	/* join us! */
+	.main-banner-gift a{
+		font-size: 1.8rem;
+	}
+	/* کد تخفیف */
+	.main-banner-gift span{
+		font-size: 1.6rem;
+	}
+	/* لذت تجربه اولین خرید */
+	.main-banner-discount-first-purchase{
+		font-size: 2rem;
+		margin-top: 1.8rem;
+	}
+	/* کد تخفیف 35 هزار تومانی */
+	.main-banner-discount-link{
+		font-size: 1.6rem;
+	}
+	.main-banner-dl-email-input{
+		width: 23rem;
+	}
+	/* در هاهوت محصول یا برند خود را جستجو کنید */
+	.main-dl-banner-brand-search{
+		font-size: 1.2rem;
+	}
+	/* ایمیل خود را وارد کنید */
+	.main-dl-banner-enter-email{
+		font-size: 1.2rem;
+	}
+}
+
+/* تغییرات بعداز 1440 پیکسل******* */
+@media (min-width: 90rem){
+	/* سایز بنر */
+	.main-banner{
+		height: 20rem;
+		background-position-y: -19rem;
+	}
+	/* عکس گیفت */
+	.main-banner-gift img{
+		width: 12rem;
+		height: 12rem;
+	}
+	/* join us! */
+	.main-banner-gift a{
+		font-size: 3.5rem;
+	}
+	/* کد تخفیف */
+	.main-banner-gift span{
+		font-size: 3.2rem;
+	}
+	/* لذت تجربه اولین خرید */
+	.main-banner-discount-first-purchase{
+		font-size: 3rem;
+		margin-top: 3rem;
+	}
+	/* کد تخفیف 35 هزار تومانی */
+	.main-banner-discount-link{
+		font-size: 2.45rem;
+	}
+	/* تغییرات سایز اینپوت ایمیل */
+	.main-banner-dl-email-input{
+		width: 30rem;
+	}
+	/* در هاهوت محصول یا برند خود را جستجو کنید */
+	.main-dl-banner-brand-search{
+		font-size: 1.55rem;
+	}
+	/* ایمیل خود را وارد کنید */
+	.main-dl-banner-enter-email{
+		font-size: 1.55rem;
+	}
+	.main-banner-dl-email-div{
+		margin-top: 2rem;
+	}
+}
+/* //////////////////////**************banner end****************/
+
+/* /////////////////////***************تبلیغات بعد از بنر srart**********/
+
+.card-img-m,  .advertising-five-part-all-delivery{
+	/* width: auto; */
+	height: 15rem;
+}
+.card-img-dl{
+	height: 31rem;
+}
+.advertising-five-part-all{	
+	bottom: 0rem;
+}
+.Lottery{
+	background-color: #ff00ff;
+	text-align: center;
+}
+.Lottery span{
+	font-size: 0.9rem;
+}
+.card-body img{
+	width: 9.5rem;
+	height: 9.5rem;
+	max-width: 100%;
+} 
+.advertising-five-part img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.advertising-five-part-all-delivery{
+	background-color: #c8c8c8;
+}
+.advertising-five-part-all-delivery img{
+	width: 5rem;
+	height: 5rem;
+}
+.advertising-five-part-all-tag-discount{
+	background-color: #ff00ff;
+	width: 3.5rem;
+	height: 2rem;
+	top: 1rem;
+}
+/* /////////////////////***************تبلیغات بعد از بنر end**********/
+
+/* <!--///////////////////////////////////////////////////////hahoot-option پیشنهاد هاهوت start////////////////////////////////// --> */
+.card-img-option-dl{
+	height: 30rem;
+}
+/* .general-image-all img{
+	width: 100%;
+	height: 25rem;
+} */
+.general-image-all-myhahoot-card img, .general-image-all-sale img{
+	width: 2rem !important;
+	height: 2rem;
+}
+.general-image-all-myhahoot-card{
+	bottom: 14.3rem !important;	
+}
+.general-image-all-sale{
+	bottom: 10.5rem;
+}
+.general-image-body img{
+	width: 1rem;
+	height: 1rem;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+	font-size: 5rem !important;
+	position: absolute;
+	top: 30%;
+	color: #6c757d!important;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+	right: 0;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	left: 0;
+}
+
+.general-image-all-tag-discount{
+	background-color: #ff00ff;
+	width: 4rem;
+	height: 2rem;
+	top: 2rem;
+	left: 0rem;
+}
+.eneral-image-all-tag-discount span{
+	text-align: center;
+	align-items: center;
+}
+
+.price-for-you-t{
+	color: #c8c8c8;
+}
+.price-discount-n{
+	color: #ff00ff;
+}
+.price-for-you-n{
+	position: relative;
+}
+.price-for-you-n::after{
+	content: "";
+	position: absolute;
+	z-index: 3;
+	border-top: 0.1rem solid #ff00ff;
+	width: 30px;
+	transform: rotate(176deg);
+	transform-origin: 55% 55%;
+	top:0.75rem;
+}
+
+.card-img-overlay img{
+	width: 2rem;
+	height: 2rem;
+}
+
+.card-img-overlay-vl{
+	border-left: 0.2rem solid #c8c8c8;
+}
+.card-img-overlay span{
+	color: #c8c8c8;
+}
+
+.general-image-all span{
+	color: #c8c8c8;
+}
+
+.overlay-test {
+	/* top: 0; */
+	bottom: 0;
+	/* left: 0; */
+	/* right: 0; */
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: #0052ff;
+}
+.overlay-test-option {
+	/* top: 0; */
+	bottom: 0;
+	/* left: 0; */
+	/* right: 0; */
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: #ff00ff;
+}
+.general-image-all-overlay:hover .overlay-test, .option-img-overlay:hover .overlay-test-option{
+	opacity: 0.65;
+}
+
+.advanced-search-icon-m{
+	background-color: #ff00ff;
+}
+#advancedSearch-m{
+	height: 100vh;
+	border: 0.2rem solid #0052ff;
+}
+
+#advancedSearch h5, #advancedSearch h6, #advancedSearch span{
+	color: #c8c8c8;
+}
+.advanced-search-icon-m img{
+	width: 3rem;
+	height: 3rem;
+}
+
+.advancedSearch-m-flash-down img{
+	width: 3rem;
+	height: 3rem;
+}
+#brands-search-m img{
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.delete-filter h5{
+	color: #ff00ff !important;
+}
+.applied-filters-m-details img{
+	width: 1rem;
+	height: 1rem;
+}
+
+/* .search-of-hahoot-all h5{
+	top: 0;
+} */
+.search-of-hahoot-all-img{
+	height: 60vh;
+}
+.search-of-hahoot-all-Search img{
+	width: 2rem;
+	height: 2rem;
+}
+
+.search-of-hahoot-all{
+	line-height: 2rem;
+}
+
+.category-name{
+	top: 0;
+}
+.category-tags{
+	bottom: 1.5rem;
+}
+.category-cart-my-hahoot img{
+	width: 2rem !important;
+	height: 2rem;
+}
+/* تغییرات از 768 پیکسل تا 1024 پیکسل **********/
+@media (min-width: 48rem) and (max-width: 64rem){
+	.search-of-hahoot-all-img{
+		height: 90vh;
+	}
+}
+	
+/* تغییرات از 1024 پیکسل تا 1440 پیکسل******* */
+@media (min-width: 64rem) and (max-width: 90rem){
+
+}
+	
+/*/* تغییرات بعداز 1440 پیکسل******* */
+@media (min-width: 90rem){
+
+}
+
+/* <!--///////////////////////////////////////////////////////hahoot-option پیشنهاد هاهوت end////////////////////////////////// --> */
+/* <!--///////////////////////////////////////////////////////hahoot-sale تخفیف هاهوت start////////////////////////////////// -->       */
+.hahoot-sale{
+	font-size: 1.25rem;
+}
+.carousel-control-prev-icon{
+	color:#ff00ff;
+}
+/* <!-- Carousel discount and option--> */
+.card-body-discount , .card-body-option{
+	height: auto;
+}
+.card-body-discount , .card-body-option{
+	line-height: 1.2rem;
+	font-size: 0.7rem;
+}
+.card-body-discount img , .card-body-option img{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-right: 0.2rem;
+}
+/* قیمت با تخقیف و قیمت کالا */
+.price-discount-t, .price-for-you-t{
+	font-size: 0.8rem;
+}
+/* discount  only and is not option*/
+.price-for-you-n{
+	position: relative;
+}
+
+.price-for-you-n::after{
+	content: "";
+	position: absolute;
+	border-top: 0.1rem solid #ff00ff;
+	width: 30px;
+	transform: rotate(176deg);
+	transform-origin: 0% 0%;
+	top:0.75rem;
+}
+
+/*قیمت هایی که صورتی شده اند. مربوط به بخش قیمت با تخفیف */
+.price-discount-n{
+	color: #ff00ff;
+	/* font-size: 5rem; */
+	/* position: relative; */
+	/* border-bottom: 1px solid red;
+	transform: rotate(5deg); */
+}
+/* .price-off{
+	transform: rotate(0);
+} */
+
+.card-img-overlay-discount , .card-img-overlay-option{
+	top: 13rem;
+}
+
+
+/* <!--///////////////////////////////////////////////////////hahoot-sale تخفیف هاهوت end////////////////////////////////// -->       */
+
+
+/* /////////////////////***************خرید آسان و سریع start**********/ 
+/* for mobile start******** */
+.main-easy-fast-shopping h6{
+	/* font-size: 0.9rem; */
+	direction: rtl;
+	
+}
+.main-easy-fast-shopping img{
+	width: 4rem;
+	height: 4rem;
+}
+/* for mobile end******** */
+/* for desktop and laptop start //////////////*/
+/* تغییرات از 768 پیکسل تا 1024 پیکسل **********/
+@media (min-width: 48rem) and (max-width: 64rem){
+	.main-easy-fast-shopping h6{
+		font-size: 1.1rem;
+	}
+	.main-easy-fast-shopping img{
+		width: 6rem;
+		height: 6rem;
+	}
+	.main-easy-fast-shopping-vl{
+		border: solid 0.01rem;
+		height: 8rem;
+	}
+	.main-easy-fast-shopping span{
+		font-size: 1.65rem;
+	}
+}
+
+/* تغییرات از 1024 پیکسل تا 1440 پیکسل******* */
+@media (min-width: 64rem) and (max-width: 90rem){
+	.main-easy-fast-shopping h6{
+		font-size: 1.5rem;
+	}
+	.main-easy-fast-shopping img{
+		width: 8rem;
+		height: 8rem;
+	}
+	.main-easy-fast-shopping-vl{
+		border: solid 0.01rem;
+		height: 10rem;
+	}
+	.main-easy-fast-shopping span{
+		font-size: 2.3rem;
+	}
+	.main-easy-fast-shopping h3{
+		font-size: 2.5rem;
+	}
+}
+
+/* تغییرات بعداز 1440 پیکسل******* */
+@media (min-width: 90rem){
+	.main-easy-fast-shopping h6{
+		font-size: 2rem;
+	}
+	.main-easy-fast-shopping img{
+		width: 11rem;
+		height: 11rem;
+	}
+	.main-easy-fast-shopping-vl{
+		border: solid 0.01rem;
+		height: 14rem;
+	}
+	.main-easy-fast-shopping span{
+		font-size: 2.8rem;
+	}
+	.main-easy-fast-shopping h3{
+		font-size: 3rem;
+	}
+}
+/* for desktop and laptop end//////////////*/
+/* /////////////////////***************خرید آسان و سریع end**********/ 
+
+/* ----------------------------------magnet-blue- start------------------------- */
+/* این کاملا درسته، فقط باید جهت و مسیر متن عوض بشه.*/
+.search-of-hahoot-all-img{
+	height: 60vh;
+}
+.search-of-hahoot-all-Search img{
+	width: 2rem;
+	height: 2rem;
+}
+.search-of-hahoot-all{
+	line-height: 2rem;
+}
+/* تغییرات از 768 پیکسل تا 1024 پیکسل **********/
+@media (min-width: 48rem) and (max-width: 64rem){
+	.search-of-hahoot-all-img{
+		height: 90vh;
+	}
+}
+/* ----------------------------------magnet-blue- end------------------------- */
+
+/*//////////////////////////////////////////////// only only only desktop and laptop end//////////////*/
+/* <!-- دسته بندی محصولات برتر و پربیننده ترین های هاهوت  start--> */
+/* .top-products img{
+	width: 7.5rem;
+	height: 7.5rem;
+} */
+.top-products a, .top-products h3, .top-products span{
+	cursor: pointer;
+}
+
+/* تغییرات از 768 پیکسل تا 1024 پیکسل **********/
+@media (min-width: 48rem) and (max-width: 64rem){
+	.top-products img{
+		width: 4.5rem;
+		height: 4.5rem;
+	}
+/* عناوین زیر عکس */
+	.top-products h5{
+		font-size: 1rem;
+	}
+/* دسته بندی محصولات برتر */
+	.top-products h3{
+		font-size: 1.5rem;	
+	}
+/* پربیننده ترین های هاهوت */
+	.top-products span{
+		font-size: 1.6rem;
+	}
+	
+	.top-products-vl{
+		border: solid 0.1rem white;
+		height: 7rem;
+	}
+}
+
+/* تغییرات از 1024 پیکسل تا 1440 پیکسل******* */
+@media (min-width: 64rem) and (max-width: 90rem){
+	.top-products img{
+		width: 6.5rem;
+		height: 6.5rem;
+	}
+/* عناوین زیر عکس */
+	.top-products h5{
+		font-size: 1.5rem;
+	}
+/* دسته بندی محصولات برتر */
+	.top-products h3{
+		font-size: 1.9rem;	
+	}
+/* پربیننده ترین های هاهوت */
+	.top-products span{
+		font-size: 2rem;
+	}
+	
+	.top-products-vl{
+		border: solid 0.1rem white;
+		height: 11rem;
+	}
+}
+
+/* تغییرات بعداز 1440 پیکسل******* */
+@media (min-width: 90rem){
+	.top-products img{
+		width: 8.5rem;
+		height: 8.5rem;
+	}
+/* عناوین زیر عکس */
+	.top-products h5{
+		font-size: 2rem;
+	}
+/* دسته بندی محصولات برتر */
+	.top-products h3{
+		font-size: 3rem;	
+	}
+/* پربیننده ترین های هاهوت */
+	.top-products span{
+		font-size: 3.15rem;
+	}
+	
+	.top-products-vl{
+		border: solid 0.1rem white;
+		height: 13rem;
+	}
+}
+
+
+
+
+/* <!-- دسته بندی محصولات برتر و پربیننده ترین های هاهوت  end--> */
+
+/* footer //////////////////////////////////////////////////////////////////////// */
+.footer{
+    background-color: black;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+/*********************************** for moblie*************************************/
+/* footer-m-discount */
+.footer-m-discount a{
+    color: rgb(200, 2, 190);
+    /* font-size: 1rem; */
+    direction: rtl;
+}
+
+.footer-m-email-img{
+    width: 3rem;
+    height: 3rem;
+}
+.footer-m-input-email:focus{
+    color: black;
+    text-align: right;
+}
+
+.footer-m-input-email::placeholder{
+    font-size: 0.7rem;
+    text-align: right;
+    color: black;
+    
+}
+/* .footer-m-email-confirmation{
+    color: black;
+    font-size: 0.8rem;
+} */
+.footer-m-email-vl{
+	height: 2rem;
+}
+
+/* footer-connect */
+.footer-m-connect-img{
+    width: 10rem;
+    height: 10rem;
+}
+.footer-m-flash-up{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* @media all and (min-width:48rem){
+    .footer-connect-img{
+        width: 22rem;
+        height: 22rem;
+        margin-top: -25rem;
+    }
+    .footer-connecting{
+        font-size: 1.1rem;
+        margin-top: -4rem;
+    }
+} */
+
+/* footer-shopping-guide and provider-services */
+/* .footer-digital{
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-top: 4rem;
+} */
+.footer-m-shopping-guide span, .footer-m-provider-services span{
+    font-size: 0.8rem;
+
+}
+.footer-m-shopping-guide-item, .footer-m-provider-services-item{
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+
+/* @media all and (min-width:48rem){
+    .footer-summery{
+        margin-top: 10rem;
+    }
+    .footer-shopping-guide span, .footer-provider-services span{
+        font-size: 1.1rem;
+        margin-top: 4rem;
+
+    }
+    .footer-shopping-guide-item, .footer-provider-services-item{
+        font-size: 1.05rem;
+        line-height: 2.5rem;
+    }
+    .footer-vl{
+        height: 5rem;
+        width: 0.2rem;
+        margin-top: 4rem;
+    }
+    .horizontal-line{
+        width: 3rem;
+    }
+} */
+
+.horizontal-line{
+    direction: rtl;
+    background-color: white;
+	width: 1.75rem;
+	/* height: 0.0rem; */
+}
+
+.footer-m-vl{
+    width: 0.1rem;
+	height: 8.75rem;
+	background-color: white;
+}
+
+/* footer-social-networks */
+.footer-m-social-networks img{
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+
+/* footer-responsible */
+.footer-m-responsible{
+    color: rgb(200, 2, 190);
+    font-size: 0.6rem;
+    direction: rtl;    
+}
+
+/************************************* for desktop and laptop start*****************************/
+.footer-dl-connect-img{
+	width: 24rem;
+	height: 24rem;
+}
+
+.footer-dl-connect{
+	font-size: 1.5rem;
+}
+
+.footer-dl-vl{
+	/* border: solid 1px white; */
+	width: 0.1rem;
+	height: 18rem;
+	/* margin-left: 23rem; */
+	background-color: white;
+}
+
+.footer-dl-horizontal-line{
+    background-color: white;
+	width:5rem;
+	/* height: 0.0rem; */
+}
+
+.footer-dl-shopping-guide span, .footer-dl-services-customer span{
+	font-size: 1.5rem;
+}
+
+.footer-dl-shopping-guide-item, .footer-dl-services-customer-item{
+	font-size: 1.3rem;
+	line-height: 3rem;
+}
+.footer-dl-digital a{
+	font-size: 1.2rem;
+	line-height: 2.2rem;
+}
+@media all and (max-width:48rem){
+	.footer-dl-shopping-guide span{
+		font-size: 1.15rem;
+	}
+	.footer-dl-shopping-guide-item, .footer-dl-services-customer-item{
+		font-size: 1.17rem;
+	}
+}
+
+@media all and (min-width:64rem){
+	.footer-dl-digital, .footer-dl-shopping-guide, .footer-dl-services-customer{
+		margin-left: 10rem;
+	}
+}
+
+@media all and (max-width:64rem){
+	.footer-dl-digital, .footer-dl-shopping-guide, .footer-dl-services-customer{
+		margin-left: 0;
+	}
+}
+
+.footer-dl-responsible, .footer-dl-discount a{
+	color: rgb(200, 2, 190);
+    font-size: 1.15rem;
+    direction: rtl;
+}
+.footer-dl-social-networks img{
+	width: 4.5rem;
+	height: 4.5rem;
+}
+
+.footer-dl-email-control{
+	width: auto;
+	height: 4.4rem;
+}
+
+.footer-dl-email-img{
+	width: 4rem;
+	height: 4rem;
+}
+.footer-dl-email-input{
+	background-color: black;
+}
+.footer-dl-email-input::placeholder{
+	color: white;
+	text-align: right;
+	font-size: 1.5rem;
+}
+
+.footer-dl-email-input:focus{
+	background-color: black;
+	color: white;
+	text-align: right;
+	font-size: 1.8rem;
+}
+
+.footer-dl-email-confirmation{
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+.footer-dl-email-vl{
+	
+	border: 1px solid white;
+}
+@media all and (max-width: 48rem){
+	.footer-dl-responsible{
+		font-size: 1rem;
+	}
+}
+
+/* body .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 50%;
+} */
+/* 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+} */

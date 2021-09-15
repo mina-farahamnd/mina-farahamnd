@@ -1,0 +1,14 @@
+.welcome{
+    &__information{
+        margin-top: $space-large;
+    }
+    
+    &__img{
+        width: 5rem;
+        height: 5rem;  
+    }
+
+    &__btn{
+        margin-top: $space-medium;
+    }
+}

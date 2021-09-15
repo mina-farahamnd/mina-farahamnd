@@ -1,0 +1,18 @@
+.input{
+    &__text{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border: 0;
+        font-size: $text__medium;
+        color: $color-green;
+        &:focus{
+            font-size: $text__medium;
+            color: $color-green !important;
+            background-color: white !important;
+        }
+        &::placeholder{
+            // padding-right: 2.5rem;
+            color: $color-gray;
+        }
+    }
+}

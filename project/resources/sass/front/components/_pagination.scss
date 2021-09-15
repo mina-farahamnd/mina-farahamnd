@@ -1,0 +1,41 @@
+.pagination{
+    justify-content: end;
+    align-items: center;
+    font-size: $text__large;
+    font-family: sans-serif;
+    direction: ltr;
+        
+    // &::after{
+    //     content: "\276F";
+    //     font-size: $text__large;
+    //     color: $color-gray;
+    //     padding-left: .5rem;
+    //     padding-top: .5rem;
+    // }
+    // &::before{
+    //     content: "\276E";
+    //     font-size: $text__large;
+    //     color: $color-gray;
+    //     padding-right: .5rem;
+    //     padding-top: .5rem; 
+    // }
+        
+    & > li{
+        // color: $color-gray;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        &:first-child{
+            font-family: iranyekan;
+        }
+        &:last-child{
+            font-family: iranyekan;
+        }
+        & > a {
+            color: $color-gray;
+            &:hover{
+                color: $color-green;
+            }
+        }
+    }
+}
+

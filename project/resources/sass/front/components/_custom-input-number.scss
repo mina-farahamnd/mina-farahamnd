@@ -1,0 +1,93 @@
+.spinner{
+    // width: 100px;
+    width: auto;
+    position: relative;
+    // margin: 0 auto;
+}
+
+input.number__input--form-control::-webkit-inner-spin-button,
+input.number__input--form-control::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+.number{
+    &__input{
+        // &--group{
+        //     // width: 40%;
+        //     // width: 80%;
+        // }
+
+        &--form-control{
+            border: 0;  
+            padding: 0;
+            margin-left: -.5rem;
+            max-width: 3rem;
+        }
+
+        &--prepend{
+            &--text{
+                background-color: $color-white;
+                border: 0;
+            }
+            &--prev{
+                cursor: pointer;
+                font-size: 1rem;
+                font-weight: 300;
+                // &::before{
+                //     content: '\276F';
+                //     border: 0;
+                //     font-size: 1.25rem;
+                //     transform: rotate(-90deg);
+                //     -webkit-transform: rotate(-90deg);
+                //     display: block;
+                //     color: $color-black;
+                //     position: absolute;
+                //     bottom: -5%;
+                //     left: 2.5%;
+                    
+                // }
+            }
+
+            &--middle{
+                // &::after{
+                //     content: '\2500';
+                //     border: 0;
+                //     font-size: 1rem;
+                //     display: block;
+                //     color: $color-black;
+                //     position: absolute;
+                //     top: 13.75%;
+                //     left: 1.25%;
+                // }
+                // position: absolute;
+                // top: 6%;
+                // left: 3%;
+
+                margin-top: -.7rem;
+                margin-bottom: -.6rem;
+                font-size: 1rem;
+                font-weight: 300;
+            }
+
+            &--next{
+                cursor: pointer;
+                font-size: 1rem;
+                font-weight: 300;
+                // &::before{
+                //     content: '\276F';
+                //     border: 0;
+                //     font-size: 1.25rem;
+                //     transform: rotate(90deg);
+                //     -webkit-transform: rotate(90deg);
+                //     display: block;
+                //     color: $color-black;
+                //     position: absolute;
+                //     top: -16%;
+                //     left: 1%;
+                // }
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.interest{
+    margin-bottom:$space-small;
+
+    &__icon{
+        width: 3rem;
+        height: 3rem;
+    } 
+
+    &__img{
+        width: 20rem;
+        height: 20rem; 
+        border-radius: $border-radius-card; 
+    }
+
+    &__card{
+        margin-top: 22%;
+        // margin-top: 7.5rem;
+    }
+
+    &__picture{
+        margin-right: 0;
+        // margin-left: 1rem;
+        @media (max-width:1200px) {
+            margin-right: 0;
+        }
+    }
+
+    &__cart{
+        background-color: $color-green;
+        width: 20rem;
+        height: 20rem;
+        border-radius: $border-radius-card; 
+
+        & > img {
+            width: 10rem;
+            height: 10rem;
+        }
+    }
+    &__information{
+        width: 20rem;
+        height: 20rem;
+        padding-right: .8rem;
+    }
+
+    &__button{
+        margin-top: $space-small;
+    }
+
+    &__empty{
+        margin-top: $space-small;
+        margin-bottom: $space-small;
+    }
+
+
+    &__scroll{
+        position:relative;
+        
+        &>span{
+            transform-origin: 0 0;
+            transform: rotate(-90deg);
+        }
+
+        & > img {
+            width: 1.5rem;
+            position: absolute;
+            left: 3%;
+            top: 30%;
+
+        }
+    }
+
+}

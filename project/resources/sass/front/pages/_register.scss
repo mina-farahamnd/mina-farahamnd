@@ -1,0 +1,211 @@
+.register{
+    margin-bottom: $space-small;
+
+    &__header{
+        background-color: $color-green; 
+        border-radius: $border-radius-box-xlarge;
+    }
+
+    &__title{
+        margin-top: $space-small;
+    }
+
+    &__group{
+        border-top: 1px solid $color-gray;
+        border-bottom: 1px solid $color-gray;
+        @media (max-width:767px) {
+            width: 100%;
+        }
+
+        &--name{
+            width: 85%;
+            @media (max-width:767px) {
+                width: 100%;
+                border-bottom:none;
+            }
+            & span{
+                @media (max-width:767px) {
+                    padding-left: 7.6rem  !important;
+                }
+            }
+        }        
+        &--email{
+            width: 85%;
+            border-top: none;
+            border-bottom: none;
+            @media (max-width:767px) {
+                width: 100%;
+                // border-top: 1px solid $color-gray;
+                // border-bottom: 1px solid $color-gray;
+            }
+            & span{
+                @media (max-width:767px) {
+                    padding-left: 6.1rem  !important;
+                }
+            }
+        }
+
+        &--lastname{
+            width: 93%;
+            // border-top: 1px solid $color-gray;
+            // border-bottom: 1px solid $color-gray;
+            @media (max-width:767px) {
+                width: 100%;
+            }
+        }
+        &--mobile{
+            width: 93%;
+            border-top: none;
+            border-bottom: none;
+            @media (max-width:767px) {
+                width: 100%;
+                border-top: 1px solid $color-gray;
+                // border-bottom: 1px solid $color-gray;
+            }
+        }
+    }
+
+    &__lable{
+        border: 0;
+        background-color: $color-white;
+    }
+
+    &__vl{
+        border-left: 2px solid $color-gray; 
+        height: 3rem;
+    }
+
+    &__input{
+        border: 0;
+        font-size: $text__medium;
+        color: $color-gray;
+		font-family: iranyekan-regular;
+        &:focus{
+            font-size: $text__medium;
+            background-color: white !important;
+			font-family: iranyekan-regular;
+        }
+    }
+
+    &__password{
+        &--group{             
+            border: 1px solid $color-gray;
+            border-bottom-right-radius: $border-radius-box-xlarge;
+            border-top-right-radius: $border-radius-box-xlarge;
+            // @include respond(tab-port){
+            //     width: 100%;
+            // }
+            @media (max-width:767px) {
+                width: 100%;
+                
+            }            
+            &--first{
+                width: 85%;
+                @media (max-width:767px) {
+                    width: 100%;
+                    
+                } 
+            }
+
+            &--second{
+                width: 92%;
+                @media (max-width:767px) {
+                    width: 100%;
+                    
+                } 
+            }
+        }
+
+        &--lable{
+            background-color: $color-white;
+            border: 0;
+            z-index: -1;
+            &--responsive{
+                @media (max-width:767px) {
+                    padding-left: 4.25rem;
+                    
+                }
+            }
+        }
+
+        &--input{
+            border: 0;
+            font-size: $text__medium;
+            color: $color-gray;
+			font-family: iranyekan-regular;
+            &:focus{
+                font-size: $text__medium;
+                background-color: white !important;
+				font-family: iranyekan-regular;
+            }
+        }
+
+        &--eye{
+            background-color: $color-green;
+            border-bottom-left-radius: $border-radius-box-xlarge;
+            border-top-left-radius: $border-radius-box-xlarge;
+            padding-top: .8rem;
+            padding-bottom: .8rem;
+            cursor: pointer;
+
+            & > img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+
+        
+        // &--diagonel{
+        //     width: 3rem;
+        //     height: .5rem;
+        //     color:$color-white;
+        //     border-bottom: 2px solid $color-white;
+        //     position: absolute;
+        //     top: 40%;
+        //     left: 3%;
+        //     transform:  rotate(-45deg);
+        // }
+    }
+    &__edit{
+        &--img{
+            width: 2.25rem;
+            height: 2.25rem;
+        }
+    }
+
+    &__reset{
+        @media (max-width:767px) {
+            margin-left: 1.8rem;
+        }
+
+        &--margin{
+            @media (max-width:767px) {
+                margin-bottom: 0 !important;
+            }
+            
+        }
+
+        &--border{
+            @media (max-width:767px) {
+                border-bottom: none;
+            }            
+        }
+        
+    }
+
+    &__profile{
+        @media (max-width:767px) {
+            margin-left: 4.6rem;
+        }
+    }
+}
+
+// for edit password page
+.edit{
+    &__password{
+        &--padding{
+            padding-left: 44px;
+        }
+    }
+}
+// for edit password page

@@ -1,0 +1,44 @@
+// MEDIA QUERY MANAGER
+/*
+0 -   419px       iphone
+420 - 575px:      phone-typical
+576 - 767px:      Tablet portrait
+768 - 991px:      Tablet landscape
+992 - 1199px:     Tablet large
+1200- 1799px:     Desktop
+1800 + :          Big desktop
+
+$breakpoint arguement choices:
+1 - iphone
+2 - phone-typical
+3 - tab-port
+4 - tab-land
+5 - tab-large
+6 - desktop
+7 - big-desktop
+
+*/
+@mixin respond($breakpoint) {
+    @if $breakpoint == iphone {
+        @media screen and (max-width: 419px) { @content };          //iphone
+    }
+    @if $breakpoint == phone-typical {
+        @media screen and (max-width: 575px) { @content };          //phone-typical
+    }
+    @if $breakpoint == tab-port {
+        @media screen and (max-width: 767px) { @content };          //Tablet portrait
+    }
+    @if $breakpoint == tab-land {
+        @media screen and (max-width: 991px) { @content };          //Tablet landscape
+    }
+    @if $breakpoint == tab-large {
+        @media screen and (max-width: 1199px) { @content };         //Tablet large
+    }
+    @if $breakpoint == desktop {
+        @media screen and (max-width: 1799px) { @content };         //Big desktop
+    }
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 1800px) { @content };    //Big desktop
+
+    }
+}

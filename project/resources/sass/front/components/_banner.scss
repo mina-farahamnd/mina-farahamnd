@@ -1,0 +1,52 @@
+.banner{
+    // margin-top: 5rem;
+    // margin-top: -2rem;
+    // margin-bottom: 5rem; 
+    
+    &__row{
+        background-color: $color-black;
+        border-radius: $border-radius-card;
+    }
+
+    &__icon{
+        & > img {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+
+    &__group{
+        border-radius: $border-radius-card;
+        background-color: $color-white;
+        width: 65%;
+        &--prepend{
+            & > span {
+                background-color: $color-white;
+            }
+        }
+
+        &--input{
+            color: $color-green;
+            font-size: 1.25rem;
+            &:focus{
+                color: $color-green !important;
+                background-color: white !important;
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+    &__title{
+        &--h3{
+            @media (max-width:1247px) {
+                font-size: 2.5rem;
+            }
+        }
+
+        &--h4{
+            @media (max-width:1247px) {
+                font-size: 2rem;
+            }
+        }
+    }
+}

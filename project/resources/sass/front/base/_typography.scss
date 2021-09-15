@@ -1,0 +1,68 @@
+// text font
+.text__iranyekan--regular--ennum{
+    font-family: iranyekan-regular-ennum;
+}
+.text__iranyekan--bold--ennum{
+    font-family: iranyekan-bold-ennum;
+}
+.text__iranyekan--bold{
+    font-family: iranyekan-bold;
+}
+
+.text__iranyekan--light{
+    font-family: iranyekan-light;
+}
+
+.text__iranyekan--regular{
+    font-family: iranyekan-regular;
+}
+
+// text size
+$text__small:1.25rem;
+.text__small{
+    font-size: 1.25rem;
+}
+
+$text__medium:1.5rem;
+.text__medium{
+    font-size: 1.5rem;
+}
+
+$text__large:1.75rem;
+.text__large{
+    font-size: 1.75rem;
+}
+
+.text__green{
+    color: $color-green;
+}
+
+.text__gray{
+    color: $color-gray;
+}
+
+.text__black{
+    color: $color-black;
+}
+
+// border 
+.border__top{
+    border-top: 1px solid $color-gray;
+}
+
+.border__bottom{
+    border-bottom: 1px solid $color-gray;
+}
+
+.border__right{
+    border-right: 1px solid $color-gray;
+}
+
+.border__left{
+    border-left: 1px solid $color-gray;
+}
+
+// line-height
+.line__height{
+    line-height: 2.5rem;
+}

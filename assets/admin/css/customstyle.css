@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'iranyekan';
+    src: url('../fonts/iranyekanregular(ennum).ttf');
+}
+
+body,p,div,span,a,li,ul,*,h1,h2,h3,h4,h5,h6,input,li,option{
+    font-family: 'iranyekan';
+}
+.row-cards-one .mycard .left .title {
+    font-size: 19px;
+}
+
+.card-header,.card-body,table{
+    text-align: right;
+}
+
+.add-product-content .product-description .body-area .left-area {
+    text-align: right;
+}
+
+.img-upload #image-preview label {
+    top: 64%;
+    left: 155%;
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: right;
+    margin-top: .3rem;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    text-align: left;
+}
+
+.heading-area {
+    text-align: right;
+}
+
+.add-product-content .product-description .body-area .left-area .sub-heading {
+    text-align: right;
+}
+
+#prevdate.form-control {
+    padding: 7px 12px 5px;
+}
+
+.version-name {
+    padding-left: 0;
+    text-align: center;
+}
+.add-product-content .product-description .body-area p{
+    text-align: right !important;
+    float: none;
+}
+
+.header .right-eliment .list li a span {
+    left: 0;
+}
+

@@ -1,0 +1,709 @@
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../../fonts/eot/iranyekanwebbold\(fanum\).eot');
+	src: url('../../fonts/eot/iranyekanwebbold(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../fonts/woff2/iranyekanwebbold(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../fonts/woff/iranyekanwebbold(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../../fonts/ttf/iranyekanwebbold(fanum).ttf') format('truetype');
+}
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../../fonts/eot/iranyekanweblight(fanum).eot');
+	src: url('../../fonts/eot/iranyekanweblight(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../fonts/woff2/iranyekanweblight(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../fonts/woff/iranyekanweblight(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../../fonts/ttf/iranyekanweblight(fanum).ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../fonts/eot/iranyekanwebregular(fanum).eot');
+	src: url('../../fonts/eot/iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../fonts/woff2/iranyekanwebregular(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../fonts/woff/iranyekanwebregular(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../../fonts/ttf/iranyekanwebregular(fanum).ttf') format('truetype');
+}
+
+html{
+	font-size: 10px;
+	/* color: white; */
+}
+body{
+	font-family: iranyekan;
+}
+.footer , .header{
+	direction: ltr !important;
+}
+/* ---------------------------------*********main*******- start------------------------- */
+/* <!-- -----------------------------------------header-p1-***for desktop and laptop***- start----------------------------------------- --> */
+/* .headering{
+	position: fixed; 
+  	top: 0; 
+  	width: 100%; 	
+} */
+
+/* .header{
+	margin-top: 30%;
+	transition: all .3s ease;
+	background-color: white;
+} */
+#submenu1-dl, #submenu1sub1-dl{
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+}
+.submenu-dl{
+	background-color: #ffffff;
+	text-align: right;
+}
+.submenu-dl a{
+	color: #c8c8c8;
+}
+/* .hahoot-online-store-dl-start */
+.hahoot-online-store-dl span{
+	color: #c8c8c8;
+}
+.hahoot-online-store-dl-open{
+	width: 3rem;
+	height: 3rem;
+}
+.hahoot-online-store-dl-logo{
+	width: 12rem;
+	height: 12rem;
+	margin-top: -3rem;
+}
+.hahoot-online-store-dl-social-networks{
+	margin-top: -1.75rem;
+}
+
+.hahoot-online-store-dl-social-networks img{
+	width: 2rem;
+	height: 2rem;
+	border: 0.1rem solid #c8c8c8;
+}
+.hahoot-online-store-dl-social-networks span{
+	border: 0.1rem solid #c8c8c8;
+	font-size: 0.75rem;
+	padding: 0.35rem;
+}
+/* .hahoot-online-store-dl-end */
+
+/* <!-- welcom-to-hahoot-dl-start --> */
+.welcom-to-hahoot-dl{
+	direction: rtl;
+}
+.welcom-to-hahoot-dl-store span{
+	font-size: 0.75rem;
+}
+.welcom-to-hahoot-dl-vl{
+    border-right: 0.15rem solid #c8c8c8;
+    height: 2rem;
+}
+.welcom-to-hahoot-dl-account span{
+	color: #c8c8c8;
+}
+.welcom-to-hahoot-dl-heart img{
+	width: 1.3rem;
+	height: 1.3rem;
+}
+.welcom-to-hahoot-dl-heart a{
+	color: #c8c8c8;
+	text-decoration: none;
+}
+.welcom-to-hahoot-dl-counter{
+	width: 1.5rem;
+	height: 1.5rem;
+	right: 0.8rem;
+	background-color:#ff00ff;
+	z-index: 999;
+}
+/* <!-- welcom-to-hahoot-dl-end --> */
+
+/* <!-- welcom-to-hahoot-dl-cart-person-start --> */
+.welcom-to-hahoot-dl-cart, .welcom-to-hahoot-dl-person{
+	width: 3.25rem;
+	height: 3.8rem;
+	border-right: 0.15rem solid #c8c8c8;
+}
+
+/* <!-- welcom-to-hahoot-dl-cart-person-end --> */
+
+/* <!-- welcom-to-hahoot-dl-search-start  --> */
+#close-my-cart-hahoot span{
+	font-size: 2.5rem !important;
+}
+.welcom-to-hahoot-dl-search{
+	direction: ltr;
+	height: 3rem;
+	background-color: #0052ff;
+}
+.welcom-to-hahoot-dl-btn-search{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+.welcom-to-hahoot-dl-input-search:focus{
+    color: white;
+	text-align: right;
+	font-size: 1.25rem;
+	background-color: #0052ff;
+}
+.welcom-to-hahoot-dl-input-search{
+	background-color: #0052ff;
+}
+.welcom-to-hahoot-dl-input-search::placeholder{
+    /* font-size: 1rem; */
+    text-align: right;
+    color: white;
+    direction: right;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+	-webkit-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease; 
+	opacity: 0;
+}
+  
+[placeholder]:focus::-moz-placeholder {
+	transition: opacity 0.5s ease; 
+	opacity: 0;
+}
+  
+[placeholder]:focus:-ms-input-placeholder {
+	transition: opacity 0.5s ease; 
+	opacity: 0;
+}
+  
+[placeholder]:focus::placeholder {
+	-webkit-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease; 
+	opacity: 0;
+}
+
+.header-vl{
+	border-left: 0.13rem solid;
+  	height: 2rem;
+}
+/*جدید و پرفروش */
+.welcom-to-hahoot-dl-new-best-seller span{
+	font-size: 1.2rem;
+}
+/* <!-- welcom-to-hahoot-dl-search-end  --> */
+
+/* nav -start */
+.nav-dl{
+	direction: rtl;
+}
+.menu{
+	font-size: 1rem;
+	color: black;
+}
+.submenu{
+	font-size: 0.76rem;
+	color: black;
+}
+#submenu1-dl{
+	background-color: black;
+}
+
+.flash-down-dl{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.nav-item{
+	line-height: 2rem;
+}
+.sub-submenu h5{
+	font-size: 1rem;
+}
+.sub-submenu a{
+	font-size: 0.9rem;
+	/* color:  #c8c8c8; */
+}
+.nav-dl-vl{
+	border-left: 0.13rem solid  #c8c8c8;;
+  	height: 21.5rem;
+}
+/* nav - end  */
+
+/* تغییرات از 1024 پیکسل تا 1440 پیکسل******* */
+@media (min-width: 64rem) and (max-width: 90rem){
+/* .hahoot-online-store-dl-start */
+	.hahoot-online-store-dl{
+		font-size: 1.25rem;
+	}
+	.hahoot-online-store-dl-open{
+		width: 4rem;
+		height: 4rem;
+	}
+	.hahoot-online-store-dl-logo{
+		width: 15rem;
+		height: 17rem;
+		margin-top: -5.5rem;
+	}
+		
+	.hahoot-online-store-dl-social-networks{
+		margin-top: -5rem;
+	}
+		
+	.hahoot-online-store-dl-social-networks img{
+		width: 3rem;
+		height: 3rem;
+	}
+	.hahoot-online-store-dl-social-networks span{
+		font-size: 1rem;
+		padding: 0.55rem;
+	}
+/* <!-- welcom-to-hahoot-dl-start --> */
+	.welcom-to-hahoot-dl-store span{
+		font-size: 1rem;
+	}
+	.welcom-to-hahoot-dl-heart img{
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+/* <!-- welcom-to-hahoot-dl-end --> */
+	
+/* <!-- welcom-to-hahoot-dl-cart-person-start --> */
+	.welcom-to-hahoot-dl-cart, .welcom-to-hahoot-dl-person{
+		width: 4rem;
+		height:4rem;
+	}
+	.welcom-to-hahoot-dl-counter{
+		width: 1.5rem;
+		height: 1.5rem;
+		right: 0.8rem;
+		background-color:#ff00ff;
+		z-index: 999;
+	}
+/* nav -start */
+	.menu{
+		font-size: 1.15rem;
+	}
+	.submenu{
+		font-size: 1rem;
+	}
+	.sub-submenu h5{
+		font-size: 1.25rem;
+	}
+	.sub-submenu a{
+		font-size: 1.15rem;
+	}
+/* nav - end  */	
+}
+/* * تغییرات از 1440 پیکسل به بعد******* */ 
+@media (min-width: 90rem){
+/* .hahoot-online-store-dl-start */
+.hahoot-online-store-dl{
+	font-size: 1.5rem;
+}
+.hahoot-online-store-dl-open{
+	width: 4.75rem;
+	height: 4.75rem;
+}
+.hahoot-online-store-dl-logo{
+	width: 16rem;
+	height: 18rem;
+	margin-top: -5.75rem;
+}
+	
+.hahoot-online-store-dl-social-networks{
+	margin-top: -5rem;
+}
+	
+.hahoot-online-store-dl-social-networks img{
+	width: 3rem;
+	height: 3rem;
+}
+.hahoot-online-store-dl-social-networks span{
+	font-size: 1.05rem;
+	padding: 0.55rem;
+}
+/* <!-- welcom-to-hahoot-dl-start --> */
+.welcom-to-hahoot-dl-store span{
+	font-size: 1.05rem;
+}
+.welcom-to-hahoot-dl-heart img{
+	width: 1.75rem;
+	height: 1.75rem;
+}
+/* <!-- welcom-to-hahoot-dl-end --> */
+
+/* <!-- welcom-to-hahoot-dl-cart-person-start --> */
+.welcom-to-hahoot-dl-cart, .welcom-to-hahoot-dl-person{
+	width: 4.25rem;
+	height:4.25rem;
+}
+.welcom-to-hahoot-dl-counter{
+	width: 1.5rem;
+	height: 1.5rem;
+	right: 0.8rem;
+	background-color:#ff00ff;
+	z-index: 999;
+}
+/* nav -start */
+.menu{
+	font-size: 1.5rem;
+}
+.submenu{
+	font-size: 1.25rem;
+}
+.sub-submenu h5{
+	font-size: 1.25rem;
+}
+.sub-submenu a{
+	font-size: 1.25rem;
+}
+.flash-down-dl{
+	width: 3rem;
+	height: 3rem;
+}
+/* nav - end  */
+}
+/* <!-- -----------------------------------------header-p1-***for desktop and laptop***- end----------------------------------------- --> */
+
+
+/* <!-- -----------------------------------------header-p1-***for mobile***- start----------------------------------------- --> */
+/* ---------------------------------header line one: logo-menu - start------------------------- */
+.hahoot-online-store img{
+	width: 10rem;
+	height: 6rem;
+}
+.hahoot-online-store span{
+	color: #c8c8c8;
+}
+.cart-m{ 
+	position: relative;
+}
+
+.cart-m ,.person-m{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.welcom-to-hahoot-dl-counter-m{
+	width: 1rem;
+	height: 1rem;
+	right: 3rem;
+	top: 3.05rem;
+	background-color:#ff00ff;
+	z-index: 999;
+}
+.nav-m{
+	direction: rtl;
+}
+/* .nav-m a, .nav-m span{
+	color:  #c8c8c8;
+	color: black;
+	cursor: pointer;
+} */
+.submenu-mobile{
+	background: #000;
+}
+.submenu-sub-A-mobile{
+	background-color: #3d3d3d;
+}
+.submenu-sub-B-mobile{
+	background-color: #c8c8c8;
+}
+#navigation-m{
+	border: 0.1rem solid #c8c8c8;
+}
+.line-horizontal-menu{
+	background-color:  #c8c8c8;
+}
+/* #navigation-m .flash-down{
+	transform: rotate(-180deg);
+} */
+
+/* #navigation-m .collapsed .flash-down{
+	transform: rotate(0deg);
+} */
+
+.flash-down{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+#open, #close{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+/* ---------------------------------header line one: logo-menu - end------------------------- */
+/* ---------------------------------header line two: search brand- start------------------------- */
+.header-m-btn-search{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+.header-m-input-search:focus{
+    color: white;
+	text-align: right;
+	font-size: 1.25rem;
+}
+
+.header-m-input-search::placeholder{
+    font-size: 0.7rem;
+    text-align: right;
+    color: white;
+    direction: right;
+}
+.header-vl{
+	border-left: 0.13rem solid;
+  	height: 2rem;
+}
+
+/*جدید و پرفروش */
+.best-seller, .new{
+	font-size: 1rem;
+}
+.hovering-all{
+	direction: rtl;
+	text-align: right;
+}
+.hovering-all-close:focus{
+	outline: none;
+}
+
+.hovering img{
+	width: 5rem;
+	height: 5rem;
+}
+.hovering-price{
+	background-color: #eeeeee;
+}
+
+.hovering-see-cart{
+	background-color: #0052ff;
+	text-align: center;
+}
+.hovering-checkout{
+	background-color:#ff00ff ;
+	text-align: center;
+}
+.hovering-see-cart img, .hovering-checkout img{
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.hovering-price span, .hovering-see-cart, .hovering-checkout{
+	font-size: 0.8rem;
+}
+#my-cart-hahoot{
+	z-index: 999;
+	width: 50rem !important;
+	background-color:#ffffff;
+	margin-top: -5.5rem;
+	display: none;
+}
+/* ----------------------------------header line two: search brand- end------------------------- */
+/* <!-- -----------------------------------------header-p1-***for mobile***- end----------------------------------------- --> */
+
+
+/* footer //////////////////////////////////////////////////////////////////////// */
+.footer{
+    background-color: black;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+/*********************************** for moblie*************************************/
+/* footer-m-discount */
+.footer-m-discount a{
+    color: rgb(200, 2, 190);
+    /* font-size: 1rem; */
+    direction: rtl;
+}
+
+/* footer-m-email */
+/* .footer-m-email-form{
+    color: black;
+} */
+.footer-m-email-img{
+    width: 3rem;
+    height: 3rem;
+}
+.footer-m-input-email:focus{
+    color: black;
+    text-align: right;
+}
+
+.footer-m-input-email::placeholder{
+    font-size: 0.7rem;
+    text-align: right;
+    color: black;
+    
+}
+
+.footer-m-email-vl{
+	height: 2rem;
+}
+
+/* footer-connect */
+.footer-m-connect-img{
+    width: 10rem;
+    height: 10rem;
+}
+.footer-m-flash-up{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.footer-m-shopping-guide span, .footer-m-provider-services span{
+    font-size: 0.8rem;
+
+}
+.footer-m-shopping-guide-item, .footer-m-provider-services-item{
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+.footer-m-email, .header-m-input-search, .welcom-to-hahoot-dl-input-search, .welcom-to-hahoot-dl-search, .price-option-hahoot, .top-products{
+	background-color: #0052ff;
+}
+.horizontal-line{
+    direction: rtl;
+    background-color: white;
+	width: 1.75rem;
+	/* height: 0.0rem; */
+}
+
+.footer-m-vl{
+    width: 0.1rem;
+	height: 8.75rem;
+	background-color: white;
+}
+
+/* footer-social-networks */
+.footer-m-social-networks img{
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+
+/* footer-responsible */
+.footer-m-responsible{
+    color: rgb(200, 2, 190);
+    font-size: 0.6rem;
+    direction: rtl;    
+}
+#back-to-top{
+	transition-delay: 1s;
+	transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+	transition-property: all;
+	transition-duration: 1s;
+}
+/************************************* for desktop and laptop start*****************************/
+.footer-dl-connect-img{
+	width: 24rem;
+	height: 24rem;
+}
+
+.footer-dl-connect{
+	font-size: 1.5rem;
+}
+
+.footer-dl-vl{
+	/* border: solid 1px white; */
+	width: 0.1rem;
+	height: 18rem;
+	/* margin-left: 23rem; */
+	background-color: white;
+}
+
+.footer-dl-horizontal-line{
+    background-color: white;
+	width:5rem;
+	/* height: 0.0rem; */
+}
+
+.footer-dl-shopping-guide span, .footer-dl-services-customer span{
+	font-size: 1.5rem;
+}
+
+.footer-dl-shopping-guide-item, .footer-dl-services-customer-item{
+	font-size: 1.3rem;
+	line-height: 3rem;
+}
+.footer-dl-digital a{
+	font-size: 1.2rem;
+	line-height: 2.2rem;
+}
+@media all and (max-width:48rem){
+	.footer-dl-shopping-guide span{
+		font-size: 1.15rem;
+	}
+	.footer-dl-shopping-guide-item, .footer-dl-services-customer-item{
+		font-size: 1.17rem;
+	}
+}
+
+@media all and (min-width:64rem){
+	.footer-dl-digital, .footer-dl-shopping-guide, .footer-dl-services-customer{
+		margin-left: 10rem;
+	}
+}
+
+@media all and (max-width:64rem){
+	.footer-dl-digital, .footer-dl-shopping-guide, .footer-dl-services-customer{
+		margin-left: 0;
+	}
+}
+
+.footer-dl-responsible, .footer-dl-discount a{
+	color: rgb(200, 2, 190);
+    font-size: 1.15rem;
+    direction: rtl;
+}
+.footer-dl-social-networks img{
+	width: 4.5rem;
+	height: 4.5rem;
+}
+
+.footer-dl-email-control{
+	width: auto;
+	height: 4.4rem;
+}
+
+.footer-dl-email-img{
+	width: 4rem;
+	height: 4rem;
+}
+.footer-dl-email-input{
+	background-color: black;
+}
+.footer-dl-email-input::placeholder{
+	color: white;
+	text-align: right;
+	font-size: 1.5rem;
+}
+
+.footer-dl-email-input:focus{
+	background-color: black;
+	color: white;
+	text-align: right;
+	font-size: 1.8rem;
+}
+
+.footer-dl-email-confirmation{
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+.footer-dl-email-vl{
+	
+	border: 1px solid white;
+}
+@media all and (max-width: 48rem){
+	.footer-dl-responsible{
+		font-size: 1rem;
+	}
+}
+
+body .carousel-control-next-icon {
+    /* background-color: rgba(0, 0, 0, 0.8); */
+	border-radius: 50%;
+}

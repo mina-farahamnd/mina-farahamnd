@@ -1,0 +1,94 @@
+
+// filtered-product page
+.card-img-overlay-product-mobile{
+    position: absolute;
+    top: 40%; 
+    right: 1.5%;
+    z-index: 100;
+}
+// filtered-product page
+
+
+// discount
+.card-img-overlay-discount{
+    position: absolute;
+    top: 40%; 
+    right: 1.5%;
+    z-index: 100;
+}
+// discount
+
+// option
+.card-img-overlay-option{
+    top: 55%; 
+}
+// option
+
+.products{
+    &__card{
+        &--title > h5{
+            color: $color-black;
+        }
+
+        &--img{
+            position: relative;
+            & > img{
+                border-radius: $border-radius-card;
+                // height: 25rem;
+				height: auto;
+            }
+
+            &--mobile{
+                border: $border-gray;
+                border-radius: $border-radius-card;
+               
+            }
+        }
+
+        &--text{
+
+            color: $color-gray;
+        }
+
+        &--color{
+            
+            &--color{
+                width: 1.15rem;
+                height: 1.15rem;
+                border-radius: .2rem;
+            }
+
+        }
+
+        &--price{
+            background-color: $color-black;
+            color: $color-white;
+            border-radius: $border-radius-box-medium;
+        }
+
+        &--diagonel{
+            width: 11rem;
+            height: .5rem;
+            color: $color-green;
+            border-bottom: 1px solid $color-green;
+            position: absolute;
+            top: 42%;
+            left: 8%;
+            transform:  rotate(-4deg);
+        }
+    }
+}
+
+.discount{
+    &__tag{
+        background-color: $color-black;
+        text-transform: uppercase;
+        color: $color-white;
+        border-bottom-right-radius: $border-radius-box-medium;
+        border-top-right-radius: $border-radius-box-medium;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 5%;
+        right: 2%;
+    }
+}

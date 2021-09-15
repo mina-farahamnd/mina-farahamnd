@@ -1,0 +1,86 @@
+.buy{
+    margin-bottom:$space-small;
+
+    &__icon{
+        & > img {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+
+    &__details{
+        border: 1px solid $color-gray;
+        border-radius: $border-radius-card;
+        padding: 2rem;
+    }
+
+
+	&__fixed{
+		width: 40%;
+		font-size: 1.25rem;
+		@media (min-width: 576px) {
+			font-size: 1.5rem;
+		}
+		@media (min-width: 992px) {
+			width: auto;
+		}
+	}
+
+	&__variable{
+		border-right: 1px solid $color-gray;
+		width: 60%;
+		font-size: 1.25rem;
+		@media (min-width: 576px) {
+			font-size: 1.5rem;
+		}
+		@media (min-width: 992px){
+			width: auto;
+		}
+	}
+
+	&__information{
+		border-top: 1px solid $color-gray;
+		@media (min-width: 768px) and (max-width: 991px) {
+			width: 50%;
+		}
+
+		@media (min-width: 992px) and (max-width:1199px) {
+			width: 33%;
+		}
+		@media (min-width:1200px){
+			width:auto;
+			border-top: none;
+		}
+	}
+
+	&__border{
+		&--768{
+			@media (min-width: 768px) and (max-width: 991px){
+				border-right: 1px solid $color-gray;
+			}
+		}
+
+		&--992{
+			@media (min-width: 992px) and (max-width:1199px) {
+				border-right: 1px solid $color-gray;
+			}
+		}
+
+		&--1200{
+			@media (min-width:1200px) {
+				border-right: 1px solid $color-gray;
+			}
+		}
+
+		&--bottom{
+			@media (min-width: 992px) and (max-width:1199px) {
+				border-bottom: 1px solid $color-gray;
+			}
+		}
+	}
+
+	&__responsive--1200{
+		border-top: 1px solid $color-gray;
+	}
+
+} 

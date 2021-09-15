@@ -1,0 +1,69 @@
+.filters{
+    border-radius: $border-radius-card;
+    margin-left: 2rem;
+    @media (max-width:767px) {
+        margin-left: 0;  
+    }
+
+    &__group{
+        border: 2px solid $color-black;
+        border-top: none;
+        border-bottom-right-radius:  $border-radius-card;
+        border-bottom-left-radius: $border-radius-card;
+    }
+
+    &__title{
+        background-color: $color-black;
+        border-top-left-radius: $border-radius-card;
+        border-top-right-radius: $border-radius-card;
+    }
+
+    &__search{
+        &--group{
+            border: 1px solid $color-green;
+            border-radius: $border-radius-box-large;
+        }
+
+        &--icon{
+            background-color: $color-white;
+            border: 0;
+            padding: .3rem;
+            & > img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+
+        &--input{
+            border: 0;
+            font-size: $text__small;
+            color: $color-green;
+            &:focus{
+                font-size: $text__small;
+                color: $color-green !important;
+                background-color: white !important;
+            }
+            &::placeholder{
+                color: $color-gray;
+            }
+        }
+    }
+
+    &__collapse{
+        &--arrow{
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+
+    &__btn{
+        border: $border-gray;
+        border-radius: $border-radius-box-large;
+		&--close{
+			&:hover{
+				color: black !important;
+			}
+		}
+		
+    }
+}

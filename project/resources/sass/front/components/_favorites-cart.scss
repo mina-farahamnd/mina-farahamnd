@@ -1,0 +1,13 @@
+
+.favorites__cart{
+    background-color: $color-green;
+    border-radius: .75rem;
+    position: absolute;
+    bottom: 10%;
+
+
+    &--img{
+        width: 1.75rem !important;
+        height: 1.75rem;
+    }
+}

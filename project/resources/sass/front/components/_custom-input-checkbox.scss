@@ -1,0 +1,92 @@
+.custom input[type=checkbox] + .custom__label{
+    display: block;
+    cursor: pointer;
+}
+.custom input[type=checkbox]{
+    display: none;
+    
+}
+
+.custom input[type=checkbox] + .custom__label::before{
+    border: $border-gray;
+    border-radius: $border-radius-box-small;
+    content: "";
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: .75rem;
+    padding: .65rem;
+    transition: .2s;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.custom input[type=checkbox]:checked + .custom__label::before{
+    background-color: $color-gray;
+}
+
+.custom input[type=checkbox] + .custom__label:active::before{
+    transform: scale(0);
+}
+
+// .custom-control-input:checked~.custom-control-label::before {
+//     color: #fff;
+//     border-color: $color-gray;
+//     background-color: $color-gray;
+//     box-shadow: none;
+//     outline: none;
+// }
+
+// .custom-control-label::before {
+//     // left: 5%;
+//     right: -115%;
+//     width: 1.25rem;
+//     height: 1.25rem;
+// }
+// .custom-control-label::after{
+//     // left: 17rem;
+//     right: -115%;
+//     width: 1.25rem;
+//     height: 1.25rem;
+//     // content: "";
+// }
+
+// .custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+//     background-image: none;
+// }
+
+
+.customzing__label{
+    position: relative;
+}
+
+.customzing input[type=checkbox] + .customzing__label{
+    display: block;
+    cursor: pointer;
+}
+.customzing input[type=checkbox]{
+    display: none;
+    
+}
+
+.customzing input[type=checkbox] + .customzing__label::after{
+    border: $border-gray;
+    border-radius: $border-radius-box-small;
+    content: "";
+    width: 1.25rem;
+    height: 1.25rem;
+    // margin-left: .75rem;
+    padding: .65rem;
+    transition: .2s;
+    display: inline-block;
+    vertical-align: sub;
+    position: absolute;
+    left: 0;
+}
+
+.customzing input[type=checkbox]:checked + .customzing__label::after{
+    background-color: $color-gray;
+}
+
+.customzing input[type=checkbox] + .customzing__label:active::after{
+    transform: scale(0);
+}

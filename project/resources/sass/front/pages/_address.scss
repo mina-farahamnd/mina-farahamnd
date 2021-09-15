@@ -1,0 +1,263 @@
+.address{
+    margin-bottom:$space-small;
+
+    &__user{
+        border: 1px solid $color-gray;
+        border-radius: $border-radius-card;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    &__add{
+        // margin-top: 2rem;
+        background-color: $color-black;
+        border-top-right-radius: $border-radius-card;
+        border-top-left-radius: $border-radius-card;        
+
+        &--img{
+            width: 2.75rem;
+            height: 2.75rem;
+        }        
+    }
+
+    &__select{
+        border-bottom: 1px solid $color-black;
+        margin-top: 2rem;
+        &--position{
+            & > img{
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+
+        &--textarea{                     
+            & > textarea {
+                font-size: $text__small;
+                color: $color-black;
+                &:focus{
+                    font-size: $text__small;
+                    color: $color-black;
+                }
+            }
+        }
+        
+    }
+
+    &__collapse{
+        border: 1px solid $color-black;
+        border-bottom-right-radius: $border-radius-card;
+        border-bottom-left-radius: $border-radius-card;
+        min-height: 20rem;
+        & > .collapse{
+            margin-bottom: 2.05rem;
+        }
+        @media (max-width:1199px) {
+            margin-bottom: 2rem;
+        }
+
+        &--border{
+            border-right: 1px solid $color-gray;
+            @media (max-width:767px) {
+                border-right: none;
+            }
+        }
+    }
+
+    &__icon{
+        background-color: $color-green;
+        border-radius: $border-radius-box-medium;
+        & > img {
+            width: 3rem;
+            height: 3rem;  
+        }
+    }
+
+    &__prepend{
+        width: 19%;
+        border-top: 1px solid $color-gray;
+        border-bottom: 1px solid $color-gray;
+        padding-top: 0;   
+        padding-bottom: 0;
+        @media (max-width:599px) {
+            width: 20%;
+        }
+    }
+
+    &__input{
+        font-size: $text__small;
+        color: $color-green;
+        border-top: 1px solid $color-gray;
+        border-bottom: 1px solid $color-gray; 
+        padding-top: 20px !important;   
+        padding-bottom: 20px !important;
+        &:focus{
+            font-size: $text__small;
+            color: $color-green;
+            background-color: white;
+            border-color: $color-gray;
+        }
+    }
+
+    &__special{
+        &--prepend{
+            padding-top: 5px !important;   
+            padding-bottom: 5px !important;
+        }
+
+        &--input{
+            padding-top: 25px !important;   
+            padding-bottom: 25px !important;
+        }
+    }
+
+    &__location{
+        margin-bottom: 2rem;
+        &--input{
+            border-top-right-radius: $border-radius-box-xlarge !important;
+            border-bottom-right-radius: $border-radius-box-xlarge !important;
+            padding-top: 20px !important;   
+            padding-bottom: 20px !important;
+            color: $color-green;
+            &:focus{
+                font-size: $text__small;
+                color: $color-green;
+                background-color: white;
+                border-color: $color-gray;
+            }
+            &::placeholder{
+                font-family: iranyekan-light;
+            }
+        }
+
+        &--prepend{
+            color: $color-white;
+            background-color: $color-black;
+            border-top-left-radius: $border-radius-box-xlarge !important;
+            border-bottom-left-radius: $border-radius-box-xlarge !important;
+            padding-top: 0 !important;   
+            padding-bottom: 0 !important;
+        }
+    }
+
+    &__map{
+        border-radius: $border-radius-card;
+    }
+
+    &__border{
+        border-top: 1px solid $color-gray;
+    }
+
+    &__delivery{
+        border: 1px solid $color-gray;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        @media (min-width:1200px) {
+            border-top-left-radius: $border-radius-card;
+            border-top-right-radius: $border-radius-card;
+        }
+    }
+
+    &__payment{
+        border: 1px solid $color-gray;
+        margin-top: 2rem; 
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+        &--vl{
+            border-left: 1px solid $color-gray;
+            @media (max-width:595px) {
+                display: none;
+            }
+        }
+
+        &--row{            
+            @media (min-width:596px){
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        &--online{
+            width: 50%;
+            @media (max-width:595px) {
+                width: 100%;
+            }
+        }
+
+        &--cash{
+            width: 50%;
+            @media (max-width:595px) {
+                border-top: 1px solid $color-gray;
+                width: 100%;
+            }
+        }
+        
+    }
+
+    &__description{
+        border: 1px solid $color-gray;
+        border-bottom-left-radius: $border-radius-card;
+        border-bottom-right-radius: $border-radius-card;
+        margin-top: 2rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+        &--icon{
+            // width: 4rem;
+            // height: 4rem;
+            width: 3rem;
+            height: 3rem;
+        }
+
+        &--textarea{
+            & > textarea{
+                font-size: $text__small;
+                color: $color-green;
+                &:focus{
+                    font-size: $text__small;
+                    color: $color-green;
+                    background-color: white;
+                    border-color: $color-gray;
+                    
+                }
+                &::placeholder{
+                    font-family: iranyekan-regular;
+                    font-size: $text__small;
+                    color: $color-black;   
+                }
+            }
+            
+        }
+    }
+
+    &__map{
+        width: 100%; 
+        height: 40rem; 
+        border: 2px solid $color-green;
+        border-radius: $border-radius-card;
+        
+        &--input{
+            border: 1px solid $color-green;
+            border-radius: $border-radius-box-large;
+            font-family: iranyekan-regular;
+            font-size: 1.5rem;
+            color: $color-green;
+            &:focus{
+                border-color: $color-green;
+                font-family: iranyekan-regular;
+                font-size: 1.5rem;
+                color: $color-green;
+            }
+        }
+
+        &--btn{
+            float: left; 
+            border-radius: $border-radius-box-medium;
+        }
+    }
+}
+
+.arrow-down-white{
+    width: 1.75rem;
+    height: 1.75rem;
+}
